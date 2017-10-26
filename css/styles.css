@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Contrail+One|Oswald|Vidaloka');
+
+.page {
+  width:100%;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background: url(https://i.pinimg.com/originals/11/d3/15/11d31543d2141800d56c09d93e9c44e3.jpg);
+    clear: left;
+    text-align: center;
+}
+
+a {
+    max-width: 100px;
+    margin: 0;
+    padding: 1em;
+}
+
+.images{
+  margin-top: 20px;
+  padding: 0;
+  width: 10px;
+  height:500px;
+  float:left;
+}
+
+.images:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+aside{
+  width:150px;
+}
+
+.about{
+  background-color: lightpink;
+  margin:0 auto;
+  color:white;
+}
+
+nav{
+  text-decoration-style: none;
+  display: inline-block;
+}
+
+h1{
+  text-align: center;
+  padding: 10px;
+  font-family: 'Vidaloka', serif;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    height:500px;
+}
+
+.gallery{
+  height: 100%
+}
+
+.gallery .position {
+  width: 100%;
+  height: 50%;
+}
+
+.gallery .position img{
+  margin:10px;
+  float: left;
+}
+.position:after{
+  clear:left;
+}
